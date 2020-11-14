@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    margin: auto;
+    margin-top: 130px;
+    grid-gap: 3px;
+}
+
+.items{
+    color: white;
+    border: 2px solid   #250c77;
+    background-color: #250c77;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.functions{
+    color: #250c77;
+    border: 2px solid  #250c77;
+    background-color: #ed642b;
+    padding: 5px;
+    text-align: center;   
+    border-radius: 10px;
+}
